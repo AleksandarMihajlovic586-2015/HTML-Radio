@@ -1,0 +1,100 @@
+<!DOCTYPE html >
+<html lang="sr">
+<meta charset="UTF-8">
+<head>
+<title>MAJS Radio</title>
+<link rel="stylesheet" type="text/css" href="assets/font/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="assets/font/font.css" />
+<link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen" />
+</head>
+<body>
+  <div class="center">
+    <div class="header_area">
+      <center><img src="images/slogan.gif" style="width:360px;height:27px"></center>
+      <div class="logo floatleft"><a href="emisije.html" onclick="newTabOnClick()"><img src="images/logo.png" alt="" ></a></div>
+      <div class="top_menu floatright">
+        <ul>
+          <li><a href="emisije.html" onclick="myFunction()">O nama</a></li>
+          <li><a href="emisije.html" onclick="myFunction1()">Pretplati se</a></li>
+          <li><a href="emisije.html" onclick="myFunction2()">Login</a></li><br>
+          <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png"></a>
+          <a href="https://twitter.com/" target="_blank"><img src="images/twitter.png"></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png"></a>
+        </ul>
+      </div>
+    </div>
+    <div class="main_menu_area">
+      <ul id="nav">
+        <li><a href="index.html"><b>POČETNA</b></a></li>
+        <li><a href="program.html"><b>PROGRAM</b></a></li>
+        <li><a href="top10.html"><b>TOP10</b></a></li>
+        <li><a href="emisije.html"><b>EMISIJE</b></a></li>
+        <li><a href="vesti.html"><b>VESTI</b></a></li>
+        <li><a href="kontakt.html"><b>KONTAKT</b></a></li>
+      </ul>
+    </div>
+    <div class="content_area">
+      <center>
+      <br><br>
+      <h1><ins>EMISIJE</ins></h1><br><br>
+      <h3>Od 08:00 do 11:00</h3>
+      <h1>Dobro jutro sa Sofijom</h1>
+      <p><b>Sofija Ađelković</b><br><br>Započnite dan uz MAJS Radio. Prvu jutarnju kafu popijte uz najkvalitetniju muziku.<br> Osim dobre muzike, očekuju vas i najnovije vesti iz zemlje i inostranstva, kao i kratki razgovori sa gostima o aktuelnim temama.<br>Svakog dana, od 8 do 11 ujutru, sa Sofijom Anđelković.<p><br><br>
+        <h3>Od 14:00 do 16:00</h3>
+        <h1>Lagano popodne uz Cou</h1>
+        <p><b>Aleksandar Mihajlović</b><br><br>Vraćate se sa posla? U gradu je prevelika gužva?<br>Uz Aleksandra i njegovu listu najvećih hitova, Vaše vreme neće biti uzaludno potrošeno. Svakog dana sa Vama kroz gužvu.<p><br><br>
+          <h3>Od 21:00 do 00:00</h3>
+          <h1>Tri sata kvalitetnog programa</h1>
+          <p><b>Jovan Anđelković</b><br><br>Uz dobru muziku i česta gostovanja ljudi iz raznih sfera života,<br>
+opustite se svako veče uz Jovana Anđelkovića i "Tri sata kvalitetnog programa"!<p><br><br>
+        <h3>Od 00:00 do 08:00</h3>
+        <h1>Non stop muzika</h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </center>
+    </div>
+    <div class="footer_bottom_area">
+      <div class="footer_menu">
+        <ul id="f_menu">
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="program.html">Program</a></li>
+          <li><a href="top10.html">Top10</a></li>
+          <li><a href="emisije.html">Emisije</a></li>
+          <li><a href="vesti.html">Vesti</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="copyright_text">
+        <p>Copyright &copy; 2017/2018 MajsRadio. Sva prava zadrzana.
+        <p>Robne marke i slike koje se koriste u dizajnu su autorska prava njihovih odgovarajućih vlasnika i koriste se samo za pokazne namene.</p>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="assets/js/jquery-min.js"></script>
+<script type="text/javascript" src="assets/js/selectnav.min.js"></script>
+<script type="text/javascript">
+selectnav('nav', {
+    label: '-Navigation-',
+    nested: true,
+    indent: '-'
+});
+selectnav('f_menu', {
+    label: '-Navigation-',
+    nested: true,
+    indent: '-'
+});
+function myFunction(){
+  alert("Mi smo studenti, i ovo je projekat, napravili smo radio stanicu, hvala sto ste nas posetili!");
+}
+function myFunction1(){
+alert("Hvala na parama!");
+}
+function myFunction2(){
+  window.open('login.php','','width=720,height=580');
+  return false;
+}
+function newTabOnClick(){
+  window.open('play_MAJS_Radio.php','newwindow','width=800,height=420');
+  return false;
+}
+</script>
+</body>
+</html>

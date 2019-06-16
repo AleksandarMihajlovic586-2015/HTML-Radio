@@ -1,0 +1,49 @@
+*{margin:0; padding:0}
+body{font-family:Arial; font-size:12px; line-height:13px; background:url("images/background.jpg") top center  no-repeat fixed #000 ; background-size:cover;}
+a{color:#000; text-decoration:none}
+a:hover, a:active, a:focus{text-decoration:none; color:#000}
+h1, h2, h4, h5, h6{font-weight:normal; margin:0 0 15px}
+h3{color:#202021; font-size:12px; font-weight:bold; margin-bottom:2px; line-height:13px}
+h2{font-size:25px; line-height:30px}
+img{max-width:100%; height:auto}
+.alignleft{float:left; margin-left:0px}
+.aligncenter{display:block; margin:10px auto}
+.alignright{float:right; margin-left:10px}
+.floatleft{float:left}
+.floatright{float:right}
+.center{width:980px; display:block; margin:0 auto; padding:20px; background:#fff; transition:all 1.3s ease 0s; -moz-transition:all 1.3s ease 0s; -webkit-transition:all 1.3s ease 0s; -o-transition:all 1.3s ease 0s; -ms-transition:all 1.3s ease 0s}
+div{overflow:hidden}
+.slider{height:350px; overflow:visible}
+.bxslider, .bx-viewport, .bx-controls, .bx-pager, .bx-controls-direction{overflow:visible}
+#selectnav1{display:none}
+#selectnav2{display:none}
+#nav{display:block}
+#f_menu{display:block}
+.header_area{}
+.logo{margin-top:20px}
+.top_menu{margin-left:50px; margin-top:0px; width:300px}
+.top_menu ul{list-style:none outside none; margin:0px; padding:0}
+.top_menu ul li{float:left; border-right:2px solid #000}
+.top_menu ul li:last-child{border-right:none}
+.top_menu ul li a{color:#CF0000; display:block; font-size:12px; padding:0 14px; line-height:15px}
+.top_menu ul li a:hover{text-decoration:underline}
+.main_menu_area{overflow:visible; background:#1E90FF; min-height:50px}
+.main_menu_area ul{margin:0; padding:0; list-style:none}
+.main_menu_area ul li{float:left; position:relative}
+.main_menu_area ul li a{color:#FFF; display:block;  font-size:17px; padding:18px 46px}
+.main_menu_area ul li a:hover{background:#CF0000}
+.slider_area, .slider{display:block; position:relative; width:100%; margin:0; padding:0;}
+.slider *{margin:0; padding:0;}
+.slider img{max-width:100%;}
+.slider1{width:670px}
+.slider2{width:250px}
+.content_area{margin-top:25px}
+.main_content{width:670px}
+.footer_bottom_area{margin-top:15px}
+.footer_menu{margin-bottom:20px}
+.footer_menu ul{margin:0; padding:0; list-style:none}
+.footer_menu ul li{border-right:1px solid #000; display:inline}
+.footer_menu ul li:last-child{border-right:none}
+.footer_menu ul li a{display:inline-block; padding:0 57.7px}
+.footer_menu ul li a:hover{}
+.copyright_text{line-height:17px; text-align:center}
